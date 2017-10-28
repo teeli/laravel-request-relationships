@@ -1,0 +1,27 @@
+{
+  "name": "aciddose/laravel-request-relationships",
+  "version": "1.0.0",
+  "description": "A model Trait for Laravel that let's you automatically load model's relationships by defining then in request parameters",
+  "keywords": [
+    "laravel",
+    "eloquent",
+    "request"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Teemu Lahti",
+      "email": "teemu.lahti@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/framework": ">=5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aciddose\\RequestRelationships\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
